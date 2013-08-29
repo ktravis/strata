@@ -6,7 +6,8 @@ syntax keyword strataInclude load
 highlight link strataInclude Include
 
 syntax keyword strataKeyword begin end start stop
-syntax keyword strataKeyword energy time adc x y temp sensor layer channel
+syntax keyword strataKeyword energy time adc real_x real_y temp sensor 
+syntax keyword strataKeyword layer channel display_x display_y
 syntax keyword strataKeyword calib_valid valid calibValid geom geometry
 syntax keyword strataKeyword badEvent badChannel isEmpty is_empty empty
 syntax keyword strataKeyword amp aplitude index pixel
