@@ -7,7 +7,9 @@ highlight link strataInclude Include
 
 syntax keyword strataKeyword begin end start stop
 syntax keyword strataKeyword energy time adc x y temp sensor layer channel
-syntax keyword strataKeyword calibValid geom geometry
+syntax keyword strataKeyword calib_valid valid calibValid geom geometry
+syntax keyword strataKeyword badEvent badChannel isEmpty is_empty empty
+syntax keyword strataKeyword amp aplitude index pixel
 highlight link strataKeyword Keyword
 
 syntax keyword strataType cloud cloud1 cloud1d cloud2 cloud2d cloud3 cloud3d
