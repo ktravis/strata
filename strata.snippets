@@ -1,1 +1,42 @@
-/home/hercules/.vim/snippets/strata.snippets
+snippet cloud
+	begin cloud:
+	    name "${1}"
+
+	        fill ${2}
+
+	    end cloud
+
+snippet cloud2
+	begin cloud2d:
+	    name "${1}"
+
+	    fill ${2}, ${3}
+
+	end cloud2d
+
+snippet hist
+	begin hist:
+	    name "${1}"
+	    bins ${2}
+	    lower ${3}
+	    upper ${4}
+
+	    fill ${5}
+	end hist
+
+snippet hist2
+	begin hist2d:
+	    name "${1}"
+	    bins ${2}, ${3}
+	    lower ${4}, ${5}
+	    upper ${6}, ${7}
+
+	    fill ${8}, ${9}
+	end hist2d
+
+snippet if
+	begin if:
+	    ${1}
+	end if
+
+
