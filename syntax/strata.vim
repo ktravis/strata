@@ -10,14 +10,14 @@ syntax keyword strataKeyword energy time adc real_x real_y temp sensor
 syntax keyword strataKeyword layer channel display_x display_y
 syntax keyword strataKeyword calib_valid valid calibValid geom geometry
 syntax keyword strataKeyword badEvent badChannel isEmpty is_empty empty
-syntax keyword strataKeyword amp aplitude index pixel
+syntax keyword strataKeyword amp aplitude index pixel lowgain range_switch
 highlight link strataKeyword Keyword
 
 syntax keyword strataType cloud cloud1 cloud1d cloud2 cloud2d cloud3 cloud3d
-syntax keyword strataType hist hist1 hist1d hist2 hist2d hist3 hist3d
+syntax keyword strataType hist hist1 hist1d hist2 hist2d hist3 hist3d track
 highlight link strataType Type
 
-syntax keyword strataFunction fill name bins upper lower
+syntax keyword strataFunction fill name bins upper lower init
 highlight link strataFunction Function
 
 syntax keyword strataConditional if and or
