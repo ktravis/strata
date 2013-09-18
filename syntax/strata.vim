@@ -11,6 +11,7 @@ syntax keyword strataKeyword bucket layer channel display_x display_y
 syntax keyword strataKeyword calib_valid valid calibValid geom geometry
 syntax keyword strataKeyword badEvent badChannel isEmpty is_empty empty
 syntax keyword strataKeyword amp aplitude index pixel lowgain range_switch
+syntax keyword strataKeyword event bucket
 highlight link strataKeyword Keyword
 
 syntax keyword strataType cloud cloud1 cloud1d cloud2 cloud2d cloud3 cloud3d
